@@ -2,6 +2,10 @@
 #define __SIGNALS_H__
 #include <signal.h>
 
+#include "dynablock.h"
+
+void cancelFillBlock();
+
 typedef void (*sighandler_t)(int);
 //typedef uint32_t x86_sigset_t;
 
